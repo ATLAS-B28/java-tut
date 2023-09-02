@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Intro to java generics and encapsulation" />
+    <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Intro to java generics and encapsulation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/IOexample/FileOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IOexample/IO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/start/Enumsethash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/start/HashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/start/IteratorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/start/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/start/SetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/Chaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/Pooling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/Threads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/Errors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/Nested.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serailizers/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/intro/Parallel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/intro/Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/intro/TerminalOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/Arraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/start/Arraylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/start/LLExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/start/QueueExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/Start.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/example2/Example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/intro/Intro.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +66,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/abhij/Desktop/javaproject",
     "onboarding.tips.debug.path": "C:/Users/abhij/Desktop/javaproject/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -85,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693205288781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Intro to java generics and encapsulation">
+      <option name="closed" value="true" />
+      <created>1693499487524</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693499487524</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
