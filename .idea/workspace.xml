@@ -4,32 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Intro to java generics and encapsulation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/IOexample/FileOps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IOexample/IO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/start/Enumsethash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/start/HashMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/start/IteratorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/start/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/start/SetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/Chaining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/Pooling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/Threads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/Errors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/Nested.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serailizers/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/intro/Parallel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/intro/Stream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream/intro/TerminalOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Serializer ,stream, threads , etc">
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/ArraysOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/BitwiseSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Fibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Palindrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/PrimeNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/Arraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/start/Arraylist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/start/LLExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/start/QueueExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/Start.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stream/example2/Example2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stream/intro/Intro.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -54,13 +41,16 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2UVVJ4pxqtMPPhq7hiuCS2Wusxn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -71,7 +61,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "terminal"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -120,12 +110,26 @@
       <option name="project" value="LOCAL" />
       <updated>1693499487524</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Serializer ,stream, threads , etc">
+      <option name="closed" value="true" />
+      <created>1693672510649</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693672510649</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Intro to java" />
     <MESSAGE value="Intro to java generics and encapsulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intro to java generics and encapsulation" />
+    <MESSAGE value="Serializer ,stream, threads , etc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serializer ,stream, threads , etc" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
