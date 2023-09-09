@@ -91,10 +91,10 @@ public class Stream{
                 new Person("Aajatshatru", 22),
                 new Person("Amit", 23)
         );
-        List<Person> sortedByAge = numbers.stream()
-                .sorted(Comparator.comparing(Person::getAge))
+        List<Person> sortedByName = numbers.stream()
+                .sorted(Comparator.comparing(Person::getName))
                 .toList();
-        System.out.println(sortedByAge);
+        System.out.println(sortedByName);
     }
 }
 

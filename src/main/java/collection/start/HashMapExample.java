@@ -31,6 +31,12 @@ import java.util.Hashtable;
         }
     }
 }*/
+/*
+* In Java, the Hashtable interface is a part of the Java Collections
+* Framework ,and it represents a hashtable, which is a data structure
+* that stores key-value pairs. It is similar to the HashMap class,
+* but it is synchronized, meaning it is thread-safe.
+* */
 public class HashMapExample{
     public static void main(String[] args){
         Hashtable<Integer,String> ages = new Hashtable<>();

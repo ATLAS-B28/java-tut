@@ -10,6 +10,5 @@ public class Parallel {
                 .mapToInt(n -> n *2)
                 .sum();
         System.out.println(sum);
-
     }
 }

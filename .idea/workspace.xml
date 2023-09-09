@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Basic programs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/RemoveDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/SecondLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/SumOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Buffer/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strings/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/Enumsethash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/start/Enumsethash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/start/HashMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/instance/Downcasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/instance/Downcasting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/intro/Parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/intro/Parallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/intro/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/intro/Stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stream/intro/TerminalOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/intro/TerminalOp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693812970469</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Basic programs">
+      <option name="closed" value="true" />
+      <created>1694094457154</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694094457154</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

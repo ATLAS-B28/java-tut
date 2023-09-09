@@ -1,11 +1,11 @@
 package stream.intro;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 
 //terminal operation
-/*
+
 //collect
 public class TerminalOp {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class TerminalOp {
                 .collect(Collectors.toList());
         System.out.println(squareNumbers);
     }
-}*/
+}
 //for-each
 /*
 public class TerminalOp{
