@@ -1,7 +1,7 @@
 # Java-tut
 Java basic syntax, collections, basic programs, OOP projects, and multi-threading
 ## File Structure
-
+```
 |---src/main/java
      |
      |--Buffer
@@ -27,5 +27,5 @@ Java basic syntax, collections, basic programs, OOP projects, and multi-threadin
      |    |--programs
      |--serailizers
      |--stream/intro
-
+```
   
