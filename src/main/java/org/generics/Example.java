@@ -1,5 +1,5 @@
 package org.generics;
-
+import java.util.*;
 //generic class
 //a class that can refer to any type is
 //known as a generic class
@@ -48,20 +48,32 @@ public class Example {
 
 //in the example we are using the E type
 
-
 /*
+
 public class Example{
+    //static method
     public static <E> void printArray(E[] elements){
         for(E element : elements){
             System.out.println(element);
         }
         System.out.println();
     }
+    public <E> void printArray1(E[] elements){
+        for(E element : elements){
+            System.out.println(element);
+        }
+        System.out.println();
+    }
     public static void main(String[] args){
+        Example myClass = new Example();
         Integer[] intArray = {10,20,30,40,50,60,70};
         Character[] charArray  ={'A','D','I','T','Y','A'};
+        Integer[] intArray2 = {10,20,30,40,50,60,70};
+        Character[] charArray2  ={'A','D','I','T','Y','A'};
         printArray(intArray);
         printArray(charArray);
+        myClass.printArray1(intArray2);
+        myClass.printArray1(charArray2);
     }
 }*/
 //Wildcard in Java Generics
@@ -75,7 +87,6 @@ public class Example{
 *  creation, or a supertype
  */
 /*
-import java.util.*;
 abstract class Shape{
     abstract void draw();
 }
@@ -116,17 +127,21 @@ public class Example{
 
     }
 }
-//with upperbounded wildcards one can read the elements
+//with upper bounded wildcards one can read the elements
 //but not add unless we clearly specify the type
 //like above we have List<Square> - i.e. the type is Square*/
-
+/*
+* Upper Bound (? extends Type): It allows you to specify that the
+* type can be any subtype of the specified type (Type) or the type itself.
+* This is useful when you want to accept a collection of objects of a
+* specific type or its subclasses.
+* */
 //unbounded wildcard
 /*
-import java.util.*;
 
 class Unbounded{
-    public static void display(List<?> list){
-        for(Object o:list){
+    public static void display(List<?> lists){
+        for(Object o : lists){
             System.out.println(o);
         }
     }
@@ -147,14 +162,17 @@ public class Example{
 
 //lower bounded wildcard
 /*The purpose of lower bounded wildcards is to
- restrict the unknown type to be a specific type
-  or a supertype of that type. It is used by
-  declaring wildcard character ("?") followed
-  by the super keyword, followed by its lower
-  bound.
-*/
+* restrict the unknown type to be a specific type
+* or a supertype of that type. It is used by
+* declaring wildcard character ("?") followed
+* by the super keyword, followed by its lower
+* bound.
+* Lower Bound (? super Type): It allows you to specify that the
+* type can be any supertype of the specified type (Type) or the type
+* itself. This is useful when you want to accept a collection of
+* objects of a specific type or its superclasses.
+* */
 
-import java.util.*;
 class LowerBounded{
     public static void display(List<? super Integer> list){
         for(Object o:list){
@@ -169,7 +187,7 @@ public class Example{
         list.add(20);
         list.add(30);
         LowerBounded.display(list);
-        //List<String> list1 = new ArrayList<>();
+       // List<String> list1 = new ArrayList<>();
         //list1.add("Abhijeet");
         //list1.add("Aditya");
         //LowerBounded.display(list1); //incompatible types with integer

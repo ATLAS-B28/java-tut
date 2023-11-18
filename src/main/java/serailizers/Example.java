@@ -21,8 +21,6 @@ public class Example {
             FileOutputStream fileOut = new FileOutputStream("C:\\Users\\abhij\\Desktop\\javaproject\\src\\main\\java\\serailizers\\person.html");
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
             out.writeObject(p);
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -32,8 +30,6 @@ public class Example {
             ObjectInputStream in = new ObjectInputStream(fileIn);
             in.close();
             fileIn.close();
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

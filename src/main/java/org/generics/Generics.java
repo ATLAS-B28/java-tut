@@ -23,7 +23,9 @@ class Box<T>{
 
 public class Generics {
     public static void main(String[] args){
+
         Box<String> stringBox = new Box<>();
+
         stringBox.setContents("Abhijeet");
         String contents = stringBox.getContents();
         System.out.println(contents);
