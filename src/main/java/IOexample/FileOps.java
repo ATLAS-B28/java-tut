@@ -1,6 +1,5 @@
 package IOexample;
 import java.io.*;
-import java.lang.Throwable;
 public class FileOps {
     public static void main(String[] args){
         //create file
