@@ -7,7 +7,7 @@ import java.util.Queue;
 * elements are added at one end (rear) and removed
 * from the other end (front). It follows the FIFO
 * (First-In-First-Out) principle, meaning that the
-* element that is added first will be the first one
+* element added first will be the first one
 * to be removed.
 * */
 public class QueueExample {

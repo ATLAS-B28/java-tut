@@ -12,5 +12,12 @@ public class IteratorExample {
         for (String car : cars) {
             System.out.println(car);
         }
+
+        Iterator<String> iterator = cars.iterator();
+
+        while(iterator.hasNext()) {
+            String ele = iterator.next();
+            System.out.println(ele);
+        }
     }
 }

@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Basic programs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/ConcurrentWithThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/MultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parallel/Forking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parallel/Parallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IOexample/FileOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IOexample/FileOps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrency/Chaining.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrency/Pooling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrency/Threads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrency/Threads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/IteratorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/start/IteratorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/QueueExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/start/QueueExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +63,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Arraylist.executor": "Run",
     "Application.ConcurrentWithThreads.executor": "Run",
+    "Application.FileOps.executor": "Run",
     "Application.Forking.executor": "Run",
+    "Application.HashMapExample.executor": "Run",
+    "Application.IteratorExample.executor": "Run",
+    "Application.LLExample.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "Application.MapExample.executor": "Run",
     "Application.MultiThread.executor": "Run",
     "Application.Parallel.executor": "Run",
     "Application.Pooling.executor": "Run",
+    "Application.QueueExample.executor": "Run",
+    "Application.SumOfDigits.executor": "Run",
     "Application.Threads.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,7 +90,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+    "settings.editor.selected.configurable": "vcs.Git"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
