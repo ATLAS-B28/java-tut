@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Basic programs">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/BinaryOrUnary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/ReverseNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/SI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/IteratorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/start/IteratorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collection/start/QueueExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/start/QueueExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/instance/Downcasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/instance/Downcasting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +42,14 @@
     &quot;accountId&quot;: &quot;612da620-9370-4baf-9a22-7ffe53793245&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/basicprograms/BinaryOrUnary.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -63,20 +68,45 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Abstract.executor": "Run",
     "Application.Arraylist.executor": "Run",
+    "Application.ArraysOps.executor": "Run",
+    "Application.BinaryOrUnary.executor": "Run",
+    "Application.BitwiseSwap.executor": "Run",
     "Application.ConcurrentWithThreads.executor": "Run",
+    "Application.Division.executor": "Run",
+    "Application.Downcasting.executor": "Run",
+    "Application.Dynamic.executor": "Run",
+    "Application.Encapsulate.executor": "Run",
+    "Application.Example.executor": "Run",
     "Application.FileOps.executor": "Run",
     "Application.Forking.executor": "Run",
+    "Application.GCD.executor": "Run",
+    "Application.Generics.executor": "Run",
     "Application.HashMapExample.executor": "Run",
+    "Application.Implement.executor": "Run",
+    "Application.Inheritance.executor": "Run",
+    "Application.Interface.executor": "Run",
     "Application.IteratorExample.executor": "Run",
     "Application.LLExample.executor": "Run",
+    "Application.LeapYear.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
     "Application.MapExample.executor": "Run",
     "Application.MultiThread.executor": "Run",
+    "Application.Object.executor": "Run",
+    "Application.Palindrom.executor": "Run",
     "Application.Parallel.executor": "Run",
+    "Application.Pattern.executor": "Run",
     "Application.Pooling.executor": "Run",
+    "Application.PrimeNum.executor": "Run",
     "Application.QueueExample.executor": "Run",
+    "Application.RemoveDuplicate.executor": "Run",
+    "Application.ReverseNum.executor": "Run",
+    "Application.Runtime.executor": "Run",
+    "Application.SI.executor": "Run",
+    "Application.Static.executor": "Run",
+    "Application.Strings.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
     "Application.Threads.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",

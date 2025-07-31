@@ -41,9 +41,9 @@ public class Downcasting {
         Cat1 cat2 = (Cat1) animal2;//downcasting
         cat2.meow();//accessing the meow() method of Cat
 
-        Animal2 animal1 = new Animal2();
-        animal1.eat();//accessing the eat() method of Animal
-        Cat1 cat1 = (Cat1) animal1;//gives ClassCastException
-        cat1.meow();
+       // Animal2 animal1 = new Animal2();
+        //animal1.eat();//accessing the eat() method of Animal
+        //Cat1 cat1 = (Cat1) animal1;//gives ClassCastException
+        //cat1.meow();
     }
 }
