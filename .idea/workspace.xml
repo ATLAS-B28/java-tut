@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Basic programs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/CheckASCII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Vowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/AgeGender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/BinaryOrUnary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/BinaryOrUnary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/CheckASCII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/CheckASCII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Division.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -65,6 +66,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Abstract.executor": "Run",
+    "Application.AgeGender.executor": "Run",
     "Application.Arraylist.executor": "Run",
     "Application.ArraysOps.executor": "Run",
     "Application.BinaryOrUnary.executor": "Run",

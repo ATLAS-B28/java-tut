@@ -42,6 +42,34 @@ public class BinaryOrUnary {
                 System.out.println("Enter valid symbols");
         }
 
+        System.out.println("Using the symbol above to perform operation: ");
+        System.out.println("Input 2 numbers: ");
+        int num1 = sc.nextInt(), num2 = sc.nextInt();
+        switch (symbol) {
+            case "+":
+                System.out.println("Add: " + (num1+num2));
+                break;
+            case "-":
+                System.out.println("Subtract: " + (num1-num2));
+                break;
+            case "*":
+                System.out.println("Multiply: " + (num1*num2));
+                break;
+            case "/":
+                System.out.println("Divide: " + (num1/num2));
+                break;
+            case "++":
+                System.out.println("Pre-increment num1: " + ++num1);
+                break;
+            case "--":
+                System.out.println("Pre-decrement num1: " + --num1);
+                break;
+            case "!":
+                System.out.println("Not equal: " + (num1!=num2));
+            default:
+                System.out.println("Exit");
+        }
+
 
     }
 }
