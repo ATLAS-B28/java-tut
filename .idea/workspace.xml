@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Basic programs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/BinaryOrUnary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/LeapYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/ReverseNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/SI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/CheckASCII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Vowels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/instance/Downcasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/instance/Downcasting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Division.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +69,8 @@
     "Application.ArraysOps.executor": "Run",
     "Application.BinaryOrUnary.executor": "Run",
     "Application.BitwiseSwap.executor": "Run",
+    "Application.BuilderPattern.executor": "Run",
+    "Application.CheckASCII.executor": "Run",
     "Application.ConcurrentWithThreads.executor": "Run",
     "Application.Division.executor": "Run",
     "Application.Downcasting.executor": "Run",
@@ -109,10 +107,12 @@
     "Application.Strings.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
     "Application.Threads.executor": "Run",
+    "Application.Vowels.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/abhij/Desktop/javaproject",
@@ -120,7 +120,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [

@@ -26,5 +26,13 @@ public class Division {
         int rem = numerator % denominator;
         System.out.println("Quotient = " + quotient);
         System.out.println("Remainder = " + rem);
+
+        /*String yesOrNo = sc.nextLine();
+
+        if(yesOrNo.equals("yes")) {
+            System.out.println("Okay");
+        } else {
+            System.out.println("Not Okay");
+        }*/
     }
 }
