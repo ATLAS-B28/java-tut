@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Basic programs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/AgeGender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Loop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/BinaryOrUnary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/BinaryOrUnary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/CheckASCII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/CheckASCII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/AgeGender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/AgeGender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/SumOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/SumOfArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +79,7 @@
     "Application.Dynamic.executor": "Run",
     "Application.Encapsulate.executor": "Run",
     "Application.Example.executor": "Run",
+    "Application.Factorial.executor": "Run",
     "Application.FileOps.executor": "Run",
     "Application.Forking.executor": "Run",
     "Application.GCD.executor": "Run",
@@ -90,6 +91,7 @@
     "Application.IteratorExample.executor": "Run",
     "Application.LLExample.executor": "Run",
     "Application.LeapYear.executor": "Run",
+    "Application.Loop.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
     "Application.MapExample.executor": "Run",
