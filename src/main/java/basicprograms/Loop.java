@@ -51,7 +51,7 @@ public class Loop {
         System.out.println("used while loop answer(enter 0 to end loop): " + res1);
         System.out.println("used do while loop answer: " + res2);*/
 
-        int option, n1, n2;
+        /*int option, n1, n2;
         String choice;
         do{
             System.out.println("Enter 2 numbers: ");
@@ -79,8 +79,72 @@ public class Loop {
             System.out.println("Do you want to continue: ");
             choice = sc.next();
 
-        }while(choice.equals("yes"));
+        }while(choice.equals("yes"));*/
 
         /*System.out.println("use for loop " + res);*/
+        int option, amount, balance = 100, debit = 100, credit = 0;
+        String pin;
+        String choice;
+        System.out.println("Enter your PIN: ");
+        pin = sc.next();
+        if(pin.equals("1234")) {
+         do {
+
+                System.out.println("Enter the desired operation:\n1)Credit Amount\n2)Debit Amount\n3)Check Balance\n4)Credit Score");
+                option = sc.nextInt();
+                switch (option) {
+                    case 1:
+                        System.out.println("Enter the amount: ");
+                        amount = sc.nextInt();
+                        balance += amount;
+                        credit += amount;
+                        System.out.println("Amount credited: "+ amount);
+                        System.out.println("New Balance after crediting: " + balance);
+
+                        break;
+                    case 2:
+                        System.out.println("Enter the amount: ");
+                        amount = sc.nextInt();
+                        if(amount>balance) {
+                            System.out.println("Amount is more than the balance");
+                            break;
+                        }
+                        balance-=amount;
+                        debit-=amount;
+                        System.out.println("Amount debited: " + amount);
+                        System.out.println("New Balance after debiting: " + balance);
+
+                        break;
+                    case 3:
+                        System.out.println("Enter the amount: ");
+                        System.out.println("Balance: " + balance);
+                        break;
+                    case 4:
+                        System.out.println("Credit Score: ");
+                        System.out.println("Current balance: " + balance);
+                        System.out.println("Credited amount: " + credit + " and Debited amount: " +debit);
+                        if(debit > 0) {
+                            int score = (credit * 100) / (credit + debit);
+                            System.out.println("Credit score is: " + score);
+                            if(score < 30) {
+                                System.out.println("Needs Improvement");
+                            } else if(score < 70) {
+                                System.out.println("Good");
+                            } else {
+                                System.out.println("Excellent");
+                            }
+                        }
+                        break;
+                    default:
+                        System.out.println("Enter valid operation choice");
+                }
+
+            System.out.println("Do you wish to continue: ");
+            choice = sc.next();
+         } while(choice.equals("yes"));
+      }  else {
+         System.out.println("Please enter valid pin");
+      }
     }
+
 }

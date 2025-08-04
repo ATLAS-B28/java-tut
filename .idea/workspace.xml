@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Basic programs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Experimental/FunctionalJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Loop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/PrimeNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/PrimeNum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
