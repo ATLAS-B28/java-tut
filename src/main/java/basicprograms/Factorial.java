@@ -11,6 +11,15 @@ public class Factorial {
         for(int i = 1; i <= n; i++) fact *= i;
         return fact;
     }
+    public int factWithWhile(int n) {
+        int fact = 1;
+        int i = 1;
+        while(i <= n) {
+            fact *= i;
+            i++;
+        }
+        return fact;
+    }
     /*public int factorial(int n){
         if(n==0){
             return 1;
@@ -18,10 +27,13 @@ public class Factorial {
             return n*factorial(n-1);
         }
     }*/
+
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         Factorial f = new Factorial();//<- cause the factorial is dynamic method
         System.out.println(f.factorial(n));
+        System.out.println(f.factWithWhile(n));
     }
 }
