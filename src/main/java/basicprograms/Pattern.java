@@ -8,7 +8,7 @@ public class Pattern {
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter the no.of rows: ");
         int rows = sc.nextInt();
-        for(int i = 1 ;i<= rows;i++){
+        /*for(int i = 1 ;i<= rows;i++){
             for(int j = 1;j<=rows-i;j++){
                 System.out.print(" ");
             }
@@ -18,12 +18,50 @@ public class Pattern {
             System.out.println();
         }
         for(int  i = 0; i < rows; i++) {
-            for(int j = 0; j <= rows-i; j++) {
+            for(int j = 0; j < rows-i; j++) {
                 System.out.print("*");
             }
             System.out.println(" ");
-        }
+        }*/
         for(int i = 0; i < rows; i++) {
+            for(int j = 0; j < rows; j++) {
+                if(i == 0 || i == rows - 1 || j == 0 || j == rows - 1) {
+                    System.out.print("*");
+                } else {
+                    System.out.print("/");
+                }
+            }
+            System.out.println();
+        }
+        for(int i = 1, j = 1; i <= rows && j <= rows; i++, j++) {
+            System.out.print(i + " " + j + "\n");
+        }
+        for(int i = 1; i<=50 && i > 0; i++) {
+            System.out.print(i + "\n");
+        }
+        System.out.println();
+        for(int iOuter = 0; iOuter < 6; iOuter++) {
+            for(int jInner = 0; jInner < 2; jInner++) {
+                if(iOuter == jInner) continue;
+                System.out.println(iOuter + " " + jInner);
+            }
+        }
+
+        System.out.println("Enter non zero number for iterations(will run up to 1): ");
+        int loopCheck = 1;
+        while(loopCheck != 0) {
+            loopCheck = sc.nextInt();
+            if (loopCheck % 5 == 0) {
+                System.out.println(loopCheck + " is multiple of 5");
+            } else {
+                System.out.println("Enter multiple of 5");
+                continue;
+            }
+            loopCheck--;
+            System.out.print(loopCheck);
+
+        }
+        /*for(int i = 0; i < rows; i++) {
             for(int j = 1; j <= i; j++) {
                 System.out.print(j);
             }
@@ -39,7 +77,7 @@ public class Pattern {
             System.out.println(" ");
 
         }
-        int num = 0;
+        int num = 1;
         for(int i = 0; i <= rows; i++) {
             for(int j = 1; j <= i; j++) {
                 System.out.print(num + " ");
@@ -54,6 +92,6 @@ public class Pattern {
         int n2 = sc.nextInt();
         for(int i = n1; i < n2; i+=3) {
             System.out.println(i);
-        }
+        }*/
     }
 }
