@@ -15,5 +15,20 @@ public class Palindrome {
        } else{
            System.out.println(word+" is not a palindrome");
        }
+       System.out.println("Enter a number: ");
+       int reversedNum = 0;
+       int rem;
+       int num = sc.nextInt();
+       int temp = num;
+       while(temp != 0) {
+           rem = temp % 10;
+           reversedNum = reversedNum * 10 + rem;
+           temp = temp / 10;
+       }
+       if(num == reversedNum) {
+           System.out.println(num + " is a palindrome");
+       } else {
+           System.out.println(num + " is not a palindrome");
+       }
    }
 }

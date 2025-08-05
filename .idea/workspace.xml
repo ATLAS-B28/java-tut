@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Basic programs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Loop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/PrimeNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/PrimeNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Experimental/FunctionalJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Experimental/FunctionalJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Pattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,9 +97,11 @@
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
     "Application.MapExample.executor": "Run",
+    "Application.Matrix.executor": "Run",
     "Application.MultiThread.executor": "Run",
     "Application.Object.executor": "Run",
     "Application.Palindrom.executor": "Run",
+    "Application.Palindrome.executor": "Run",
     "Application.Parallel.executor": "Run",
     "Application.Pattern.executor": "Run",
     "Application.Pooling.executor": "Run",
@@ -108,8 +112,10 @@
     "Application.Runtime.executor": "Run",
     "Application.SI.executor": "Run",
     "Application.Static.executor": "Run",
+    "Application.Stream.executor": "Run",
     "Application.Strings.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
+    "Application.TerminalOp.executor": "Run",
     "Application.Threads.executor": "Run",
     "Application.Vowels.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
