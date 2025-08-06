@@ -17,7 +17,7 @@ public class Circle {
         circle1.radius = 4.9;
         Circle circle2 = new Circle();
         circle2.radius = 3.8;
-        boolean areTheyEqual = Circle.compareArea(circle1,circle2);
+        boolean areTheyEqual = compareArea(circle1,circle2);
         //static method called direclty on instance of class
         System.out.println(areTheyEqual);
     }

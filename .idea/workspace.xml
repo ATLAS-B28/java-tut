@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Basic programs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Experimental/Chandra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Experimental/functionalpro/SensorEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Arrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/ArraysOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/ArraysOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/methods/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/methods/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/methods/Starting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/methods/Starting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,82 +65,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Abstract.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AgeGender.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Arraylist.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraysOps.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryOrUnary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BitwiseSwap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BuilderPattern.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckASCII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConcurrentWithThreads.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Covariant.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Division.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Downcasting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dynamic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Encapsulate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileOps.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Forking.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunctionalJava.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GCD.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashMapExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Implement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IteratorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LLExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeapYear.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Matrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiThread.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Object.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrom.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Parallel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pattern.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pooling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Runtime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Static.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Stream.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Strings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TerminalOp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Threads.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Vowels.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/abhij/Desktop/javaproject&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/abhij/Desktop/javaproject/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Abstract.executor": "Run",
+    "Application.AgeGender.executor": "Run",
+    "Application.Arraylist.executor": "Run",
+    "Application.Arrays.executor": "Run",
+    "Application.ArraysOps.executor": "Run",
+    "Application.BinaryOrUnary.executor": "Run",
+    "Application.BitwiseSwap.executor": "Run",
+    "Application.BuilderPattern.executor": "Run",
+    "Application.Chandra.executor": "Run",
+    "Application.CheckASCII.executor": "Run",
+    "Application.ConcurrentWithThreads.executor": "Run",
+    "Application.Covariant.executor": "Run",
+    "Application.Division.executor": "Run",
+    "Application.Downcasting.executor": "Run",
+    "Application.Dynamic.executor": "Run",
+    "Application.Encapsulate.executor": "Run",
+    "Application.Example.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FileOps.executor": "Run",
+    "Application.Forking.executor": "Run",
+    "Application.FunctionalJava.executor": "Run",
+    "Application.GCD.executor": "Run",
+    "Application.Generics.executor": "Run",
+    "Application.HashMapExample.executor": "Run",
+    "Application.Implement.executor": "Run",
+    "Application.Inheritance.executor": "Run",
+    "Application.Interface.executor": "Run",
+    "Application.IteratorExample.executor": "Run",
+    "Application.LLExample.executor": "Run",
+    "Application.LeapYear.executor": "Run",
+    "Application.Loop.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "Application.MapExample.executor": "Run",
+    "Application.Matrix.executor": "Run",
+    "Application.MultiThread.executor": "Run",
+    "Application.Object.executor": "Run",
+    "Application.Palindrom.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.Parallel.executor": "Run",
+    "Application.Pattern.executor": "Run",
+    "Application.Pooling.executor": "Run",
+    "Application.PrimeNum.executor": "Run",
+    "Application.QueueExample.executor": "Run",
+    "Application.RemoveDuplicate.executor": "Run",
+    "Application.ReverseNum.executor": "Run",
+    "Application.Runtime.executor": "Run",
+    "Application.SI.executor": "Run",
+    "Application.Starting.executor": "Run",
+    "Application.Static.executor": "Run",
+    "Application.Stream.executor": "Run",
+    "Application.Strings.executor": "Run",
+    "Application.SumOfDigits.executor": "Run",
+    "Application.TerminalOp.executor": "Run",
+    "Application.Threads.executor": "Run",
+    "Application.Vowels.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/abhij/Desktop/javaproject",
+    "onboarding.tips.debug.path": "C:/Users/abhij/Desktop/javaproject/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
