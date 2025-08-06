@@ -17,8 +17,13 @@ public class Arrays {
         for(int mark : marks) {
             sum += mark;
         }
+
         System.out.println("Sum: " + sum);
         System.out.println("Average is: ");
         System.out.println((double) sum/size);
+        for(int mark : marks) {
+            mark*=3;
+            System.out.println(mark);
+        }
     }
 }

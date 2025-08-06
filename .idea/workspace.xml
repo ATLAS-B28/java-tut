@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Basic programs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Experimental/Chandra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Experimental/functionalpro/SensorEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Arrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/ArraysOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/ArraysOps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/methods/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/methods/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/methods/Starting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/methods/Starting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Arrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
