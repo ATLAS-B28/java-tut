@@ -63,6 +63,7 @@ public class Starting {
             for(int i = 0; i < b; i++) res*=a;
             return res;
         }
+
         public static void main(String[] args){
             /*int result = addNum(3,4);
             Starting starting = new Starting();//1st create an instance of a class and then only we can use non-static method
@@ -90,5 +91,6 @@ public class Starting {
             double raiseTo = sc.nextDouble();
             double output3 = pow(input2, raiseTo);
             System.out.println(input2 + "'s power is raised to " + raiseTo + " is " + output3);
+
         }
 }

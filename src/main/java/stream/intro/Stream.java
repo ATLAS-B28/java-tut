@@ -2,7 +2,6 @@ package stream.intro;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /*public class Stream {
     public static void main(String[] args) {
@@ -83,7 +82,7 @@ class Person{
         return name + " : " + age;
     }
 }
-public class Stream{
+public class Stream<S> {
     public static void main(String[] args){
         List<Person> numbers = Arrays.asList(
                 new Person("Abhijeet", 29),

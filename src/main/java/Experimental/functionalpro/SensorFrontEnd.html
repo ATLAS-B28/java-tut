@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sensor Event</title>
+</head>
+<body>
+     <h1>High Temperature Alerts</h1>
+     <ul id="alerts"></ul>
+     <script>
+        const ws = new WebSocket("ws://localhost:8080/yourappname/sensor-events")
+        ws.onopen = function() {
+            console.log("Connected to websocket")
+        }
+        ws.onmessage = function(event) {
+            const alertsList = document.getElementById("alerts");
+            const listItem = document.createElement("li");
+            listItem.textContent = event.data;
+            alertsList.appendChild(listItem);
+        }
+        ws.onclose = function() {
+            console.log("Disconnected from WebSocket");
+        }
+
+        ws.onerror = function(error) {
+            console.error("WebSocket Error: " + error);
+        }
+     </script>
+
+
+
+</body>
+</html>

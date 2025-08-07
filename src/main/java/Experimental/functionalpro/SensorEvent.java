@@ -10,7 +10,7 @@ public final class SensorEvent {
     private final double temp;
     private final Instant timeStamp;
     public SensorEvent(String sensorId, double temp) {
-        this.sensorId = Objects.requireNonNull(sensorId);//not null values;
+        this.sensorId = sensorId;
         this.temp = temp;
         this.timeStamp = Instant.now();
     }
@@ -29,10 +29,9 @@ public final class SensorEvent {
 
     @Override
     public String toString() {
-        return "SensorEvent{" +
-                "sensorId='" + sensorId + '\'' +
-                ", temperature=" + temp +
-                ", timestamp=" + timeStamp +
-                '}';
+        return "SensorEvent Emitted Object{"+
+                "sensorId='"+sensorId+'\''+
+                ", temperature="+temp+
+                ", timeStamp="+timeStamp;
     }
 }
