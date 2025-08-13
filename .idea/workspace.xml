@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Basic programs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/FindMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/PythagoreanTriplets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/DataTypePrimitive.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Fibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Fibo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Matrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
