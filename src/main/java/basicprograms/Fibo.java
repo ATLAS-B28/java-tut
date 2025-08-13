@@ -25,7 +25,7 @@ public class Fibo{
         }
     }
     public static void main(String[] args){
-        int count =10;
+        int count = 20;
         System.out.println(n1+" "+n2);
         printFibo(count-2);
     }
