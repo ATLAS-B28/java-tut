@@ -28,17 +28,17 @@ public class Pattern {
                 if(i == 0 || i == rows - 1 || j == 0 || j == rows - 1) {
                     System.out.print("*");
                 } else {
-                    System.out.print("/");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
         }
-        for(int i = 1, j = 1; i <= rows && j <= rows; i++, j++) {
+        /*for(int i = 1, j = 1; i <= rows && j <= rows; i++, j++) {
             System.out.print(i + " " + j + "\n");
         }
         for(int i = 1; i<=50 && i > 0; i++) {
             System.out.print(i + "\n");
-        }
+        }*/
         System.out.println();
         for(int iOuter = 0; iOuter < 6; iOuter++) {
             for(int jInner = 0; jInner < 2; jInner++) {
@@ -47,7 +47,7 @@ public class Pattern {
             }
         }
 
-        System.out.println("Enter non zero number for iterations(will run up to 1): ");
+        /*System.out.println("Enter non zero number for iterations(will run up to 1): ");
         int loopCheck = 1;
         while(loopCheck != 0) {
             loopCheck = sc.nextInt();
@@ -60,7 +60,7 @@ public class Pattern {
             loopCheck--;
             System.out.print(loopCheck);
 
-        }
+        }*/
         /*for(int i = 0; i < rows; i++) {
             for(int j = 1; j <= i; j++) {
                 System.out.print(j);

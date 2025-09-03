@@ -33,9 +33,9 @@ public class Main {
             int loss = cp - sp;
             double lossPercent = (double) loss / sp * 100;
             System.out.println("Loss: " + loss + " (" + lossPercent + "%)");
-        }
+        }*/
         Scanner scanner = new Scanner(System.in);
-        int sum = 0;
+        /*int sum = 0;
         int num = scanner.nextInt();
         int temp = num;//create a temp variable so the original remains same
         int numLen = String.valueOf(num).length();
@@ -51,11 +51,42 @@ public class Main {
         } else {
             System.out.println(num + " is not an Armstrong number");
         }*/
+        System.out.println("Input number to see whether it is armstrong or not: ");
+        int sum = 0;
+        int num = scanner.nextInt();
+        int temp = num;
+        int numLen = String.valueOf(num).length();
+        while(temp > 0) {
+            int digit = temp % 10;
+            sum += (int) Math.pow(digit, numLen);
+            temp /= 10;
+        }
+        if(num == sum) {
+            System.out.println(num + " is an armstrong number");
+        } else {
+            System.out.println(num + " is not an armstrong number");
+        }
 
-        Scanner scanner = new Scanner(System.in);
+        int num1 = scanner.nextInt();
+        //plaindrome
+        System.out.println("Input a number for palindrome: ");
+        int reverse = 0;
+        int temp1 = num1;
+        while(temp1 > 0) {
+            int digit = temp1 % 10;
+            reverse = reverse * 10 + digit;
+            temp1 /= 10;
+        }
+        if(num1 == reverse) {
+            System.out.println(num1 + " is a palindrome");
+        } else {
+            System.out.println(num1 + " is not a palindrome");
+        }
+
+        /*Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your name: ");
         String name = scanner.nextLine();
-        System.out.println("Hello, " + name);
+        System.out.println("Hello, " + name);*/
 
     }
 
