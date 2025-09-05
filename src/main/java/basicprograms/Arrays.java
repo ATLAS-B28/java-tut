@@ -82,7 +82,7 @@ public class Arrays {
             arr3[i] = arr1[i];
         }
         for(int i = 0; i < arr2.length; i++) {
-            arr3[arr1.length+i] = arr2[i];
+            arr3[i+arr1.length] = arr2[i];
         }
         //System.arraycopy(arr2, 0, arr3, arr1.length, arr2.length);
 
@@ -91,6 +91,20 @@ public class Arrays {
             System.out.println(ele);
         }
 
+        //reversing
+        int start = 0;
+        int end = arr3.length-1;
+        while(start < end) {
+            int temp = arr3[start];
+            arr3[start] = arr3[end];
+            arr3[end] = temp;
+            start++;
+            end--;
+        }
+        System.out.println("Reversed array: ");
+        for(int ele : arr3) {
+            System.out.println(ele);
+        }
 
     }
 

@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83590245-34dc-4699-a187-2f3a4c5189c1" name="Changes" comment="Basic programs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/ArrayOps2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/DiagonalTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basicprograms/MenuDriven.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Pattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basicprograms/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicprograms/Arrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +104,7 @@
     "Application.Main2.executor": "Run",
     "Application.MapExample.executor": "Run",
     "Application.Matrix.executor": "Run",
+    "Application.MenuDriven.executor": "Run",
     "Application.MultiThread.executor": "Run",
     "Application.Object.executor": "Run",
     "Application.Palindrom.executor": "Run",
