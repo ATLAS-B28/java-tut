@@ -4,7 +4,7 @@ class Car{
     String make;
     String model;
     int year;
-    public void startEngine(){
+    public static void startEngine(){
         System.out.println("Start engine");
     }
     public void printInfo(){
@@ -15,16 +15,22 @@ public class Object {
     public static void main(String[] args){
         Car car1 = new Car();
         Car car2 = new Car();
+        Car car3 = new Car();
         car1.make = "Tata";
         car1.model = "Harrier";
         car1.year = 2022;
         car2.make = "Honda";
         car2.model = "Accord";
         car2.year = 2019;
-        car1.startEngine();
+        car3.make = "Lexus";
+        car3.model = "LFA";
+        car3.year = 2025;
+        Car.startEngine();
         car1.printInfo();
-        car2.startEngine();
+        Car.startEngine();
         car2.printInfo();
+        car3.startEngine();
+        car3.printInfo();
         Student s1 = new Student("Aditya",21);
         s1.Display();
         Student1 s2 = new Student1("Aditya",21);

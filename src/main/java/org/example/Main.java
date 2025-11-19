@@ -4,11 +4,13 @@ import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-public class Main {
-    public static void main(String[] args) {
 
-        //System.out.println("Hello world!");
-        /*System.out.println("Input the temperature in Fahrenheit: ");
+public class Main {
+    String name = "";
+    public void main(String[] args) {
+
+        System.out.println("Hello world!");
+        System.out.println("Input the temperature in Fahrenheit: ");
         Scanner scanner = new Scanner(System.in);
         float fahrenheit = scanner.nextFloat();
         float celsius = (fahrenheit - 32.0f) * (5.0f / 9.0f);
@@ -33,8 +35,8 @@ public class Main {
             int loss = cp - sp;
             double lossPercent = (double) loss / sp * 100;
             System.out.println("Loss: " + loss + " (" + lossPercent + "%)");
-        }*/
-        Scanner scanner = new Scanner(System.in);
+        }
+        //Scanner scanner = new Scanner(System.in);
         /*int sum = 0;
         int num = scanner.nextInt();
         int temp = num;//create a temp variable so the original remains same
@@ -53,7 +55,7 @@ public class Main {
         }*/
         System.out.println("Input number to see whether it is armstrong or not: ");
         int sum = 0;
-        int num = scanner.nextInt();
+        //int num = scanner.nextInt();
         int temp = num;
         int numLen = String.valueOf(num).length();
         while(temp > 0) {
@@ -82,6 +84,10 @@ public class Main {
         } else {
             System.out.println(num1 + " is not a palindrome");
         }
+        int[] num6 = {1,2,3};
+        int number2 = 3;
+        float floating = (float) number2;
+        System.out.println(floating);
 
         /*Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your name: ");

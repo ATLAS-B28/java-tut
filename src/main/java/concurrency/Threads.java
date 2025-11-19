@@ -1,5 +1,5 @@
 package concurrency;
-/*
+
 public class Threads extends Thread {
     @Override
     public void run() {
@@ -17,8 +17,8 @@ public class Threads extends Thread {
         myThread.start();
         System.out.println("Hello from main thread!");
     }
-}*/
-
+}
+/*
 public class Threads implements Runnable {
     @Override
     public void run() {
@@ -37,4 +37,4 @@ public class Threads implements Runnable {
         threading.start();
         System.out.println("Hello from the main thread");
     }
-}
+}*/
