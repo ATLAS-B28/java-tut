@@ -74,7 +74,7 @@ public class basic {
         mobileDevice.setWaterResistant(true);
         mobileDevice.displayMobileDets();*/
 
-        Customer customer = new Customer();
+        /*Customer customer = new Customer();
         customer.setAccNo(123456);
         customer.setCustomerName("Aditya");
         customer.setCustomerAddress("Pune");
@@ -83,7 +83,30 @@ public class basic {
         customer.getCustomerName();
         customer.getCustomerAddress();
         customer.getBalance();
-        customer.displayCustomerDets();
+        customer.displayCustomerDets();*/
+
+        /* Employee employee = new Employee(123456, "Aditya", 123456.789, 123456.789);
+
+       // employee.getEmpId();
+       // employee.getEmpName();
+       // employee.getBaseSalary();
+       // employee.getMedical();
+
+        employee.displayEmployeeDets();*/
+
+        /*Sample a = new Sample();
+        Sample b = new Sample(10,20);
+        int ans = b.add(10,20);
+        System.out.println("Answer: " + ans);
+        //double ans =a.add(10,20,30);*/
+
+        /*Area a = new Area();
+        System.out.println("Area of rectangle: " + a.calculateArea(10,20));
+        System.out.println("Area of circle: " + a.calculateArea(40));
+        System.out.println("Area of cuboid: " + a.calculateArea(10,20,30));*/
+
+        /*MyDate md = new MyDate(19,2,2020);
+        md.displayDate();*/
     }
 }
 
@@ -393,7 +416,7 @@ class MyDate {
     }
 }*/
 
-class Customer {
+/*class Customer {
     int accNo;
     String customerName;
     String customerAddress;
@@ -429,4 +452,149 @@ class Customer {
         System.out.println("Customer Address: " + customerAddress);
         System.out.println("Balance: Rs." + balance);
     }
-}
+}*/
+
+/*class Employee {
+    private int empId;
+    private String empName;
+    private double baseSalary;
+    private double medical;
+    private double grossSalary;
+
+    Employee() {}//special method called at the time of object creation
+    //and this is called constructor, a non param aka default constructor
+    //a param constructor is a constructor with parameters
+    //it can be overloaded with multiple param constructors
+    //then there is destructor which is called at the time of object deletion
+    //this can be made default by the system but can be made explicit too.
+    //all this is to work with Garbage Collector which is a process that automatically
+    //removes the objects that are not being used to free up memory
+
+    Employee(int empId, String empName, double baseSalary, double medical) {
+        this.empId = empId;
+        this.empName = empName;
+        this.baseSalary = baseSalary;
+        this.medical = medical;
+        //the reason to use this to refer to the current class itself and its members
+        //if not used we effectively create a new local variable
+    }
+
+    public void setEmpId(int empId) {
+        this.empId = empId;
+    }
+    public void setEmpName(String empName) {
+        this.empName = empName;
+    }
+    public void setBaseSalary(double baseSalary) {
+        this.baseSalary = baseSalary;
+    }
+    public void setMedical(double medical) {
+        this.medical = medical;
+    }
+
+    public int getEmpId() {
+        return empId;
+    }
+    public String getEmpName() {
+        return empName;
+    }
+    public double getBaseSalary() {
+        return baseSalary;
+    }
+    public double getMedical() {
+        return medical;
+    }
+
+
+    public double calculateGrossSalary() {
+        double hraPercentage = 0.5;
+        grossSalary = baseSalary + (baseSalary * hraPercentage) + medical;
+        return grossSalary;
+    }
+
+    public double calculateNetSalary() {
+        double pfPercentage = 0.12;
+        double pt = 200;
+        return grossSalary - (pt + (pfPercentage * baseSalary));
+    }
+
+    public void displayEmployeeDets() {
+        System.out.println("Employee ID: " + empId);
+        System.out.println("Employee Name: " + empName);
+        System.out.println("Base Salary: Rs." + baseSalary);
+        System.out.println("Gross Salary: Rs." + calculateGrossSalary());
+        System.out.println("Net Salary: Rs." + calculateNetSalary());
+    }
+
+}*/
+
+//method overloading
+/*class Sample {
+    int a;
+    int b;
+    Sample() {
+        this(10,10);
+        System.out.println("Default constructor and values used with this() are " + a + " " + b);
+    }
+    Sample(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+    public int add(int a,int b) {return a+b;}
+    //also return statements stop the execution and returns the value and control
+    //at the place where it was called
+    public double add(double a, double b) {return a + b;}//same name different param
+    public double add(int a, double b) {return a + b;}//different order
+    public double add(double a, int b) {return a + b;}//different type
+    //not dependent on return type only param order, number and types
+    public double add(int a, int b, float c) {return a+b+c;}//different number
+}*/
+
+/*class Area {
+    double length;
+    double width;
+    double radius;
+    double height;
+
+    Area() {}
+
+    public double calculateArea(double length, double width) {
+        return length * width;
+    }
+
+    public double calculateArea(double radius) {
+        return 3.14 * radius * radius;
+    }
+
+    public double calculateArea(double length, double width, double height) {
+        return length * width * height;
+    }
+}*/
+
+/* constructor chaining
+class MyDate {
+    int day, month, year;
+
+    public MyDate() {
+        this(10);
+    }
+
+    public MyDate(int dd) {
+        this(dd, 2);
+    }
+
+    public MyDate(int dd, int mm) {
+        this.day = dd;
+        this.month = mm;
+    }
+
+    public MyDate(int dd, int mm, int year) {
+        this.day = dd;
+        this.month = mm;
+        this.year = year;
+    }
+
+    public void displayDate() {
+        System.out.println(day + "/" + month + "/" + year);
+    }
+}*/
